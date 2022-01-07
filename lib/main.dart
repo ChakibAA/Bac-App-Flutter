@@ -1,4 +1,3 @@
-import 'package:bacalgeria/Config/Route.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
@@ -19,7 +18,6 @@ class MyApp extends StatelessWidget {
       title: 'Bac Algeria',
       locale: const Locale('ar', "DZ"),
       initialRoute: '/',
-      getPages: routes,
       theme: ThemeData(fontFamily: ArabicFonts.almarai().fontFamily),
     );
   }
